@@ -1,14 +1,12 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
 h1 {
     color: blue;
+    font-size: 40px;
 }
 
 h2 {
     color: green;
+    font-weight: normal;
+    font-size: 30px;
 }
 
 i {
@@ -17,7 +15,7 @@ i {
 
 div {
     text-align: center;
-    max-width: 600px;
+    width: 500px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -25,5 +23,16 @@ div {
 }
 
 ul {
-    max-width: 350px;
+    width: 400px;
+    text-align: justify;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+p {
+    text-align: justify;
+    font-size: 16px;
+    line-height: 25px;
+    font-family: Arial;
+    text-indent: 40px;
 }
